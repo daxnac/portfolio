@@ -1,0 +1,92 @@
+nav {
+  background-color:  rgb(45, 72, 108);
+  color: darkblue;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+nav a:hover {
+  color: dimgrey;
+}
+
+body {
+  background-color: rgb(237, 242, 247);
+  font-family: arial;
+}
+
+header {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url(../images/blue.jpg);
+}
+
+header img {
+  width: 134px;
+  float:  left;
+}
+header div {
+  padding-left: 160px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+
+#mainHead {
+  padding:  20px;
+}
+
+main {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: rgb(219, 228, 240);
+}
+
+article {
+  float: left;
+  width: 70%;
+}
+
+aside {
+  width: 25%;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+aside section {
+  border: 1px solid;
+  padding: 12px;
+  border-radius: 1px 20px 1px 20px;
+}
+
+.comp {
+  background-color: rgb(255, 153, 153);
+  border: 0.5px dashed red;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px #999999;
+}
+
+.comp h3 {
+  color: ghostwhite;
+  background-color: darkred;
+  padding: 5px 10px 5px 5px;
+}
+
+footer {
+  clear: both;
+}
+
+footer p {
+  width: 100%;
+  font-size: 0.9em;
+  text-align: center;
+  color: darkslategray;
+}
