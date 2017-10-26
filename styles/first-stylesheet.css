@@ -67,6 +67,13 @@ aside section {
   border-radius: 1px 20px 1px 20px;
 }
 
+section h4 {
+  font-size: 0.9em;
+  background-color: grey;
+  padding: 3px;
+  color: white;
+}
+
 .comp {
   background-color: rgb(255, 153, 153);
   border: 0.5px dashed red;
